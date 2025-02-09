@@ -1,11 +1,10 @@
-[ec2-user@ip-10-0-1-148 updateIP]$ cat actualizacionDeIp.sh 
 #!/bin/bash
 #script para actualizar la direccion ip con el dominio de noip
 
 
 #credenciales
 
-#llamo donde estan las variables
+#cargo las variables con las credenciales
 
 source .env
 
